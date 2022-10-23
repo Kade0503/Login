@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <link href="login.html" rel="login" type="text/html" />
+
+</head>
+
+<body>
+
+    <form action="action_page.php" method="post">
+
+      <div class="container">
+        <h1>Registration Information</h1>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required></br>
+
+        <label for="psw"><b>Password </b></label>
+        <input type="text" placeholder="Enter Correct Passowrd" name="psw" required></br>
+
+        <button type="submit" formaction="successpage.html">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label></br>
+      </div>
+
+      <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Yet to register? <a href="index.html">click here</a></span>
+  
+      </div>
+    </form>
+  </body>
+
+</html>
